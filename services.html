@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            color:aliceblue;
+            background-color:  rgb(8, 2, 40);
+            font-family: "Poppins", sans-serif;
+        }
+        nav {
+            display: flex;
+            list-style:none;
+            justify-content: space-between;
+            height:50px;
+            width: 100vw;
+            
+            background-color: rgb(0, 9, 56); ;
+        }
+        .navright{
+            height: 50px;
+        }
+
+        nav ul{
+            display:flex;
+            align-items: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 20px;
+            font-size: 20px;
+           
+            
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: aliceblue;
+            
+            
+
+
+        }
+        nav ul li a:hover{
+            color: rgb(255, 255, 4);
+        
+        }
+        .left{
+            margin: 20px 20px;
+            width: 420px;
+            font-size: 2.7rem;
+            margin-top: 0px;
+            color: purple;
+            
+        }
+        .firstsection{
+            height: 40vh;
+            margin: 30px;
+        }
+        .firstsection h1{
+            text-align: center;
+            font-size: 50px;
+            color: rgb(203, 143, 29);
+        } 
+        .decorations{
+            width: 100vw;
+        }
+        .decorations h1{
+            color: purple;
+            text-align: start;
+            font-size: 30px;
+
+        }
+        .decorations ul {
+            display:flex;
+            
+        }
+        .decorations li{
+            list-style: none;
+            margin: 20px;
+        }
+        .decorations ul li img{
+            border: solid 2px white;
+            width:460px;
+           
+        }
+        .decorations ul li img:hover{
+            border: solid 3px orange;
+            width:480px;
+            height: auto;
+            transition: 0.9s;
+            border-radius: 23px 23px 23px 23px;
+            box-shadow:orange 1px 1px 43px 1px;
+        
+            
+        }
+        .text{
+            text-align: center;
+            font-size: 19px
+        } 
+        .decorations p{
+            text-align: center;
+            font-size: 30px;
+        }
+        .box{
+            margin: 60px;
+        }
+        footer{
+            height: 10vh;
+            text-align: center;
+
+            font-size: 8px;
+            margin-top: 1400px;
+            color:aliceblue;
+            font-weight: 100;
+            font-family:"Poppins", sans-serif;
+        }
+        .contact{
+            height: 20vh;
+        }
+        .contact ul {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .contact ul li {
+            list-style: none;
+            width: 10px;
+            height: 10px;
+            margin: 10px 40px;
+            position: relative;
+            left: -69px;
+        }
+        .contact ul li img{
+            width: 40px;
+            height: 40px;
+            margin: 10px 40px;
+            padding: 10px;
+        }
+        .pu{
+            color: purple;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><span class="purple">Event Hub</span></div>
+            <div class="right"><ul class="navright">
+                <li><a href="landingpage.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Customer care</a></li>
+                <li id="login"><a href="#">Login</a></li>
+                <li id="sign_in"><a href="#">Sign in</a></li>
+            </ul></div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="service_header">
+                <h1>Services we Provide</h1>
+                <div class="decorations">
+                    <h1>Decorations</h1>
+                    <ul>
+                        <li><a href="www.google.com"><img src="marraige decoration.webp" alt=""></a><div class="text">Marraige Decoration</div></li>
+                        <li><a href=""><img src="birthday1.jpg" alt=""></a><div class="text">Birthday Decoration</div></li>
+                        <li><a href=""><img src="party1.jpg" alt=""></a><div class="text">Party Decoration</div></li>
+                    </ul>
+                    <p>All Types of Decorations are Done</p>
+                </div>
+                <div class="box">
+
+                </div>
+                <div class="decorations">
+                    <h1>Music System</h1>
+                    <ul>
+                        <li><a href="www.google.com"><img src="dj.jpg" alt=""></a><div class="text">Dj remix</div></li>
+                        <li><a href="#"><img src="dj2.jpg" alt=""></a><div class="text">Dj lights</div></li>
+                        <li><a href=""><img src="live band.jpg" alt=""></a><div class="text">live band</div></li>
+                    </ul>
+                    
+                </div>
+                <div class="box">
+
+                </div>
+
+                <div class="decorations">
+                    <h1>Other services</h1>
+                    <ul>
+                        <li ><a href="www.google.com"><img src="catering.jpeg" alt=""></a><div class="text">Catering</div></li>
+                        <li><a href="#"><img src="photo1.jpg" alt=""></a><div class="text">Photography</div></li>
+                        <li><a href=""><img src="grom.webp" alt=""></a><div class="text">grooming</div></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="contact">
+                <h1 class="pu">Contact us </h1>
+                <ul>
+                    <li><a href=""><img src="insta icon.png" alt=""></a></li>
+                    <li><a href=""><img src="twitter logo.png" alt=""></a></li>
+                    <li><a href=""><img src="insta icon.png" alt=""></a></li>
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>COPYRIGHT &#169 Event Hub | ALL RIGHTS RESERVED</h1>
+    </footer>
+
+    
+</body>
+</html>
