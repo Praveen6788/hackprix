@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing_page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            color:aliceblue;
+            background-color:  rgb(8, 2, 40);
+            font-family: "Poppins", sans-serif;
+        }
+        nav {
+            display: flex;
+            list-style:none;
+            justify-content: space-between;
+            height:50px;
+            width: 100vw;
+            
+            background-color: rgb(0, 9, 56); ;
+        }
+        .navright{
+            height: 50px;
+        }
+
+        nav ul{
+            display:flex;
+            align-items: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 20px;
+            font-size: 20px;
+           
+            
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: aliceblue;
+            
+            
+
+
+        }
+        nav ul li a:hover{
+            color: rgb(255, 255, 4);
+        
+        }
+        .left{
+            margin: 20px 20px;
+            width: 420px;
+            font-size: 2.7rem;
+            margin-top: 0px;
+        }
+        #login{
+            border: solid 2px black;
+            padding: 0px 10px;
+            border-radius: 23px ;
+            background-color: rgb(239, 72, 22);
+            color: black;
+        }
+        
+        .purple{
+            color: rgb(254, 75, 254);
+            
+
+        }
+        .firstsection{
+            display:flex;
+            justify-content: space-around;
+            margin: 90px 0;
+            align-items: center;
+          }
+        .firstsection > div{
+            justify-content: space-around;
+            width: 40%;
+            margin: 10px ;
+            
+            
+        }
+        .firstleft{
+            font-size: 3rem;
+        }
+        .firstright img{
+            width: 90%;
+            margin: 30px 0;
+        }
+        .firstleft p{
+            font-size:20px;
+            line-height: 2;
+            text-align:start
+        }
+        .secoundsection{
+            height: 30vh;
+            width: 100vw;
+            display:flex;
+            justify-content: space-between;
+        }
+        .secleft{
+            width: 100vw;
+            height: 40vh;
+            margin: 10px;
+
+        }
+        .secleft p{
+            line-height: 2;
+            text-align: center;
+            justify-content: space-around;
+        }
+        .thirdsec ul{
+            height: 35vh;
+            display: flex;
+            justify-content:center ;
+        }
+        .thirdsec ul li{
+            list-style: none;
+            margin: 40px;
+        }    
+        .thirdsec h1{
+            text-align: center;
+
+        }
+        .footerend{
+            font-size: 8px;
+            margin:20px 550px;
+            color:aliceblue;
+            font-weight: 100;
+            font-family:"Poppins", sans-serif;
+          }
+        .fourthsec{
+            height: 40vh;
+            display: flex;
+            align-items:center ;
+            justify-content: space-around;
+
+        }
+        p {
+            line-height: 2;
+        }
+        .fourright{
+            height: 15vw;
+            background-color: aliceblue;
+        }
+        .contact{
+            height: 20vh;
+        }
+        .contact ul {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .contact ul li {
+            list-style: none;
+            width: 10px;
+            height: 10px;
+            margin: 10px 40px;
+            position: relative;
+            left: -69px;
+        }
+        .contact ul li img{
+            width: 40px;
+            height: 40px;
+            margin: 10px 40px;
+            padding: 10px;
+        }
+        .pu{
+            color: purple;
+            margin: 20px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><span class="purple">Event Hub</span></div>
+            <div class="right"><ul class="navright">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Customer care</a></li>
+                <li id="login"><a href="#">Login</a></li>
+                <li id="sign_in"><a href="#">Sign in</a></li>
+            </ul></div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="firstleft"><h1>welcome to <span class="purple">Event Hub </span></h1>
+                <p>Are you planning a special event and need the perfect service providers to make it unforgettable? Look no further! EventMatch is your one-stop platform connecting you with top-rated professionals tailored to your specific needs, budget, and location. Whether you're organizing a wedding, corporate event, birthday party, or any other celebration, we make it easy to find, compare, and book the best services.
+
+                Join EventMatch today and turn your event dreams into reality with ease and confidence</p>.</div>
+            <div class="firstright"><img src="eve.png" alt=""></div>
+            
+
+        </section>
+        <section class="secoundsection">
+            <div class="secleft"><h1 class="purple">About us</h1><p>
+                Our Purpose
+At EventMatch, our mission is to simplify event planning by connecting you with top-rated service providers that fit your needs, budget, and location. We aim to make your event planning process smooth and stress-free.
+
+Our Services
+Event Listings: Find services for catering, photography, venues, decor, and more.
+Advanced Search: Filter providers by type, budget, and location.
+Verified Reviews: Trustworthy ratings to help you choose the best.
+Secure Booking: Safe and easy payment options.
+Personalized Recommendations: Tailored suggestions based on your event.
+Direct Communication: Contact providers directly to finalize details.
+Join EventMatch today and make your event unforgettable with ease.
+            </p></div>
+        </section>
+        <section class="thirdsec">
+            <div class="leftthird"><h1 class="purple">Services we  Provide</h1>
+            <div class="services"><ul>
+                <li><img src="birthday.jpeg" alt=""><h1 class="imgtext">Decorations</h1></li>
+                <li><img src="sound.jpeg" alt=""><h1>Sound systems</h1></li>
+                <li><img src="catering.jpeg" alt=""><h1>Catering services</h1></li>
+               
+            </ul></div></div>
+        </section>
+        <section class="fourthsec">
+            <div class="fourleft"><h1 class="purple">How we Work</h1>
+                <p>At EventMatch, our process is designed to make event planning easy and stress-free. Here’s how it works:
+
+                Create a Profile: Start by creating a free account on EventMatch. Provide details about your event, including type, date, location, and budget.
+                
+                Browse and Search: Use our advanced search and filtering options to find service providers that match your specific needs. You can search by category, budget, location, and more to narrow down your options.
+                
+                Read Reviews and Ratings: Access verified reviews and ratings from other users to help you make informed decisions. Our community feedback ensures you can trust the quality of the services you choose.
+                
+                Get Personalized Recommendations: Based on your event details and preferences, receive tailored recommendations for service providers that best fit your requirements.
+                
+                Communicate Directly: Use our secure messaging system to contact service providers directly. Discuss your needs, negotiate terms, and finalize details effortlessly.
+                
+                Book and Pay Securely: Once you’ve found the perfect service providers, book their services directly through our platform. Our secure payment system ensures your transactions are safe and hassle-free.
+                
+                Plan with Confidence: With everything organized and confirmed, focus on enjoying the planning process. Our platform helps you keep track of your bookings and manage your event details with ease.
+                
+                At EventMatch, we’re here to connect you with the best service providers, making your event planning journey smooth and enjoyable. Join us today and see how easy it is to bring your event vision to life! </p></div>
+
+
+        </section>
+        <div class="contact">
+            <h1 class="pu">Contact us </h1>
+            <ul>
+                <li><a href=""><img src="insta icon.png" alt=""></a></li>
+                <li><a href=""><img src="twitter logo.png" alt=""></a></li>
+                <li><a href=""><img src="insta icon.png" alt=""></a></li>
+                
+            </ul>
+        </div>
+    </main>
+    <div class="footer">
+      </div>
+      <div class="footerend">
+        <h1>COPYRIGHT &#169 Event Hub | ALL RIGHTS RESERVED</h1>
+      </div>
+  
+    </footer>
+</body>
+</html>
