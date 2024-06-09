@@ -1,7 +1,12 @@
-body {
+*{
     margin: 0;
     padding: 0;
     /* font: italic small-caps bold 10px/2 cursive; */
+}
+
+body{
+    background-color:rgb(20, 20, 76) ;
+
 }
 
 .nav-links {
@@ -29,6 +34,7 @@ label {
 
 .Main_heading{
     text-align: center;
+    color: #fff;
 }
 
 .Login{
