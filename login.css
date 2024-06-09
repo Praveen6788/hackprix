@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font: italic small-caps bold 10px/2 cursive; */
+}
+
+.nav-links {
+    display: flex;           /* Use flexbox for horizontal alignment */
+    gap: 20px;               /* Space between the h3 elements */
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Main_heading{
+    text-align: center;
+}
+
+.Login{
+    margin-left:38%;
+    text-decoration:none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 9px;
+    border-color: green;
+    background-color: rgb(55, 235, 55);
+    color: black;
+}
+
+.type{
+    margin-bottom: 15px;
+}
+
+.person{
+    width: 95%;
+    padding: 10px;
+}
+
+option{
+    font: bold;
+    font-size: large;
+}
+
+.last{
+    padding: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    margin-right: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
